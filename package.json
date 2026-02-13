@@ -1,18 +1,30 @@
 {
   "name": "karl-ai-whatsapp-bot",
   "version": "1.0.0",
-  "description": "KARL AI ASSISTANCE - WhatsApp Bot using DeepSeek API",
+  "description": "KARL AI ASSISTANCE - WhatsApp Bot powered by DeepSeek AI",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step needed'"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.7",
-    "qrcode-terminal": "^0.12.0",
     "openai": "^4.52.7",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
     "pino": "^9.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "ai",
+    "deepseek",
+    "karl-ai"
+  ],
+  "author": "KARL AI ASSISTANCE",
+  "license": "MIT"
 }
